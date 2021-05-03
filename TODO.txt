@@ -1,0 +1,12 @@
+TODO:
++ clasps on shoes
++ shins
++ thighs
++ pelvis
++ helmet
++ arm bracers
++ jetpack
+
+EXTRA:
++ gloves
++ chest

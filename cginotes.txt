@@ -1,0 +1,21 @@
+helmet modelled from reference image plane
+visor cut from sphere
+booster pack rings based from a torus with preset, so they can all be editted easily at a later date
+leg joints duplicated from helmet button then altered to save time
+remove face and bridge gaps for arm holes in vest
+spring made by extruding a cylinder, adding subdivisions, and then applying a rotated bend deformation
+had to use duplicate special with 'duplicate input graph' to duplicate the springs with deformer childed and have the deformers apply
+for some objects, such as the helmet and chest, I worked on half the object then mirrored to save time
+I tried extruding a cylinder along a curve for the an arm brace, but found this wouldn't move nicely with the skeleton, so scrapped it.
+Tried to have links between the rings along arms and the fingers of the hand, but found they wouldn't stay connected if the lower joints were rotated
+Had to sheer hydraulic clasp so it wouldn't peek through gap on joint on leg
+Issue with leg joints clipping into thigh and shin shapes?
+Hydraulic clasps beveled to make their edges less harsh
+helmet got overcomplicated quickly, decided it was better to make multiple separate shapes and parent them to the main mesh instead
+I tried a machone surfave by extruding a curve along another curve to create a bracer for the arms. Felt it looked too messy and would clip through the skin too much, decided a simpler shape would be better
+Used a modifier cloth standardSurface material to give gloves
+Tried to use a machine surface for the belt, but couldn't get the curves to fit around the body correctly. Instead made the shape flat, then moved and rotated the vertices to envelope the torso. Mirrored to save time too. Beveled then smoothed to get a nice rounded look.
+Wedged face to curve on shoe clasps
+Connectors on clasps needed to be detached and separated so they wouldn't rotate with the rest of the clasp
+fuel tank has a translucent plane of glass, with an inner cylinder that can be scaled to show the fuel depleting when the booster pack is in use.
+used the mirror tool in object-space to expand the shin pads so they can double as arm braces
