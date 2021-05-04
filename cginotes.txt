@@ -24,6 +24,5 @@ organised in animation, removing curves that don't change. added benefit of allo
 legs clipped through when moving, tried making the models larger, but that didn't look nice. So instead I decided to remove the faces of the legs, as they are fully encased and so would never be seen anyway.
 Chest and pelvis have a gap visible when rotating 
 As I know that I will never need to break the parent connections, I used the regular parent, rather than a constraint for all the suit
-helmet renders with poor lighting on large faces, added subdivisions to fix
-set driven key for activating helmet and shoes
-ears and boosterpack have blendshape
+attributes added for set driven key when activating helmet, extending springs and opening clasps
+ears and boosterpack have blendshapes
