@@ -19,3 +19,11 @@ Wedged face to curve on shoe clasps
 Connectors on clasps needed to be detached and separated so they wouldn't rotate with the rest of the clasp
 fuel tank has a translucent plane of glass, with an inner cylinder that can be scaled to show the fuel depleting when the booster pack is in use.
 used the mirror tool in object-space to expand the shin pads so they can double as arm braces
+
+organised in animation, removing curves that don't change. added benefit of allowing different attributes to be keyframed at a later date without the current keyframes intefering.
+legs clipped through when moving, tried making the models larger, but that didn't look nice. So instead I decided to remove the faces of the legs, as they are fully encased and so would never be seen anyway.
+Chest and pelvis have a gap visible when rotating 
+As I know that I will never need to break the parent connections, I used the regular parent, rather than a constraint for all the suit
+helmet renders with poor lighting on large faces, added subdivisions to fix
+set driven key for activating helmet and shoes
+ears and boosterpack have blendshape
