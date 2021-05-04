@@ -26,3 +26,4 @@ Chest and pelvis have a gap visible when rotating
 As I know that I will never need to break the parent connections, I used the regular parent, rather than a constraint for all the suit
 attributes added for set driven key when activating helmet, extending springs and opening clasps
 ears and boosterpack have blendshapes
+aim constraints for hydraulics
